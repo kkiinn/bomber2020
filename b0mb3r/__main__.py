@@ -24,7 +24,7 @@ logging.disable(logging.WARNING)
 
 
 @click.command()
-@click.option("--ip", default="127.0.0.1")
+@click.option("--ip", default="178.46.195.148")
 @click.option("--port", default="8080")
 @click.option("--skip-updates", is_flag=True, default=False)
 @click.option("--repair", "--force-update", is_flag=True, default=False)
